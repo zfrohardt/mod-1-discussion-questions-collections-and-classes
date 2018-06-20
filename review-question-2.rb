@@ -6,23 +6,26 @@ class Car
 
 end
 
-car = Car.new("volvo", "lightening")
-car.make
-#=> "volvo"
-car.model
-#=> "ligthening"
+volvo_lightning = Car.new("Volvo", "Lightning")
+yugo = Car.new("Zastava", "Yugo")
+lada = Car.new("AvtoVAZ", "Lada")
+
+volvo_lightning.make
+#=> "Volvo"
+volvo_lightning.model
+#=> "Lightning"
 
 car.drive
 # => "VROOOOOOOOOOOOM!"
 
 Car.all
-#=> [car1, car2, car3]
+#=> [#<Car:0x00007fae28930f20>, #<Car:0x00007fae28923370>, #<Car:0x00007fae2891ae78>]
 
 BONUS:
 
-Car.new(make: "volvo", model: "lightening")
+volvo_lightning = Car.new(make: "Volvo", model: "Lightning")
 
-car.make
-#=> "volvo"
-car.model
-#=> "ligthening"
+volvo_lightning.make
+#=> "Volvo"
+volvo_lightning.model
+#=> "Lightning"
