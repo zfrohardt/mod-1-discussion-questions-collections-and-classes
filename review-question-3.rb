@@ -7,7 +7,7 @@ sophie = User.new("Sophie")
 sandwich_photo.user = sophie
 sandwich_photo.user.name
 # => "Sophie"
-user.photos
+sophie.photos
 # => [#<Photo:0x00007fae2880b370>]
 
 
