@@ -15,7 +15,7 @@ volvo_lightning.make
 volvo_lightning.model
 #=> "Lightning"
 
-car.drive
+Car.drive
 # => "VROOOOOOOOOOOOM!"
 
 Car.all
