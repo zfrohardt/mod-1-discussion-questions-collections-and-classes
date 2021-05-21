@@ -10,7 +10,7 @@ class Photo
     end
 
     def make_comment(comment)
-        @comments.push Comment.new(comment)
+        @comments.push Comment.new comment
     end
 
     def self.all
